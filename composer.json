@@ -1,0 +1,25 @@
+{
+  "name": "jakulov/corpuscle_log",
+  "description": "Corpuscle Logger Component",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yakov Akulov",
+      "email": "jakulov@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "jakulov\\Corpuscle\\": "src/jakulov/Corpuscle/"
+    }
+  },
+  "require": {
+    "psr/log": "^1.0",
+    "symfony/psr-http-message-bridge": "^0.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.1"
+  }
+}
